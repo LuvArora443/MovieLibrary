@@ -43,16 +43,16 @@ import {
                 fontSize={"2xl"}
                 fontWeight={"bold"}
                 color={"red"}
-                letterSpacing={"widest"}
+                letterSpacing={"2px"}
                 fontFamily={"mono"}
               >
-                NETFLEX
+                <strong>FASALMOVIES</strong>
               </Box>
             </Link>
   
             {/* DESKTOP */}
             <Flex
-              gap="4"
+              gap="5"
               alignItems={"center"}
               display={{ base: "none", md: "flex" }}
             >

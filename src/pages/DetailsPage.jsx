@@ -280,27 +280,7 @@ const DetailsPage = () => {
             ))}
         </Flex>
 
-        <Heading
-          as="h2"
-          fontSize={"md"}
-          textTransform={"uppercase"}
-          mt="10"
-          mb="5"
-        >
-          Videos
-        </Heading>
-        <VideoComponent id={video?.key} />
-        <Flex mt="5" mb="10" overflowX={"scroll"} gap={"5"}>
-          {videos &&
-            videos?.map((item) => (
-              <Box key={item?.id} minW={"290px"}>
-                <VideoComponent id={item?.key} small />
-                <Text fontSize={"sm"} fontWeight={"bold"} mt="2" noOfLines={2}>
-                  {item?.name}{" "}
-                </Text>
-              </Box>
-            ))}
-        </Flex>
+
       </Container>
     </Box>
   );
